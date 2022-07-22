@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+}
+tr:nth-child(even)
+{
+  background-color: #fff;
+}
+tr:nth-child(odd)
+{
+  background-color: #b48c8073;
+}
+th 
+{
+  background-color: #000000;
+  color: white;
+}
+.callout.dark, .callout.dark h2 {
+  color: #b48c80;
+  margin: 0px 0px 8px;
+  text-align: center;
+}
+.dark .divider 
+{
+  border-top: 2px solid #b48c80;
+  border-bottom: 2px solid #b48c80;
+}
+.divider.half-margins 
+{
+  margin: 30px 0px;
+}
+    

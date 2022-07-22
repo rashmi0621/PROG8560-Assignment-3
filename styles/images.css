@@ -1,0 +1,110 @@
+main.images
+{
+    width: 100%;
+}
+.photos
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin: 20px;
+}
+.images figure 
+{
+    margin: 0;  
+    position: relative; 
+}
+.images img 
+{
+	display: block;  
+    border-radius: 8px;
+    border: 9px solid #fff;
+    outline: 2px solid #b48c80;
+    box-shadow: 0 0 30px #c6c6c6;
+    width: 100%;
+    
+}
+.img-cap {
+	color: white;
+	padding: 3% 2%;
+	text-align: center;
+	position: absolute; 
+	bottom: 0; 
+	background-color: #b48c80;
+	width: 100%;
+    font-family: 'Montez', cursive;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 4px solid #fff;
+    outline: 2px solid #b48c80;
+    box-shadow: 0 0 30px #c6c6c6;
+}
+
+.tt-right1 h3 {
+    background: #ffffff;
+    padding-left: 40px;
+    color: #b48c80;
+    font-size: 23px;
+    background-size: 22px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+.triangle  a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.rightbar .travelo-box1 {
+    background-image: url(../images/side-banner.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    height: 100%;
+    padding: 32px 20px;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+.rightbar {
+    background-color: #b48c807d !important;
+}
+
+.travelo-box1 .choose1 ul {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+.travelo-box1>*:last-child {
+    margin-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 32px 20px;
+}
+.travelo-box1.choose1 ul li {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #b48c80;
+    color: #b48c80;
+    list-style-type: circle !important;
+}
+.travelo-box1.choose1 ul li a {
+    text-decoration: none;
+    color: #b48c80;
+
+}
+ul.triangle li:before 
+{
+    margin-right: 10px;
+    color: #d9d9d9;
+    display: block;
+    float: left;
+    font-size: 7px;
+}
+.travelo-box1.choose1 ul li:before
+{
+    color: #000000;
+}
+

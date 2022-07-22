@@ -1,0 +1,91 @@
+.video
+{
+    width: 400px;
+    max-width: 100%;
+    display: block; 
+	width: auto; 
+	margin: 0 auto;
+    border: 5px solid #b48c80;  
+}
+.custom-heading h3{
+font-family: Suranna;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+}
+.callout.dark, .callout.dark h2 {
+    color: #b48c80;
+    margin: 0px 0px 8px;
+    text-align: center;
+}
+.dark .divider {
+    border-top: 2px solid #b48c80;
+    border-bottom: 2px solid #b48c80;
+}
+.divider.half-margins {
+    margin: 30px 0px;
+}
+.flower
+{ 
+    text-align: centre; 
+    padding:10px 15px;
+    margin:auto;
+}
+.rightbar .travelo-box1
+{
+    background-image: url(../images/side-banner.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    height: 100%;
+    padding: 32px 20px;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+.tt-right1 h3 {
+    background:#ffffff;
+    padding-left: 40px;
+    color: #b48c80;
+    font-size: 16px;
+    background-size: 22px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+.travelo-box1 .choose1 ul {
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+.travelo-box1>*:last-child {
+    margin-bottom: 0;
+}
+.travelo-box1.choose1 ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #b48c80;
+    color: #b48c80;
+    list-style-type: circle !important;
+}
+.travelo-box1.choose1 ul li a {
+    text-decoration: none;
+    color: #b48c80;
+}
+.bold {
+    font-weight: bold;
+    margin-top: 20px;
+}
+ul.triangle li:before {
+    margin-right: 10px;
+    color: #d9d9d9;
+    display: block;
+    float: left;
+    font-size: 7px;
+}
+.travelo-box1.choose1 ul li:before {
+    color: #000000;
+}
+
